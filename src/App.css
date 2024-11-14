@@ -1,0 +1,47 @@
+:root {
+    --primary-color: rgb(255, 64, 0);
+    --secondary-color: rgb(255, 122, 0);
+    --text-color: rgb(179, 179, 179);
+    --heading-color: rgb(245, 241, 239);
+    --border-color: rgb(51, 51, 51);
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: 
+      url('../src/assets/font/Manrope-Light.ttf') format('truetype');
+    font-weight: 300; 
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: 
+      url('../src/assets/font/Manrope-Regular.ttf') format('truetype');
+    font-weight: 400; 
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: 
+      url('../src/assets/font/Manrope-Medium.ttf') format('truetype');
+    font-weight: 500; 
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: 
+      url('../src/assets/font/Manrope-SemiBold.ttf') format('truetype');
+    font-weight: 600; 
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: 
+      url('../src/assets/font/Manrope-Bold.ttf') format('truetype');
+    font-weight: 700; 
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+  }
